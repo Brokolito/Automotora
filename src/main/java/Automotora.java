@@ -24,7 +24,7 @@ public class Automotora {
         recorrerArray(autos);
         System.out.println("Cual de estos se vendio (1-"+(autos.size())+")....");
         NumeroDeAuto=Ingresar();
-        while(!(NumeroDeAuto<=autos.size() && NumeroDeAuto>0)){
+        while(NumeroDeAuto>=autos.size() && NumeroDeAuto>0){
             System.out.println("Ingrese un numero valido");
             NumeroDeAuto=Ingresar();
         }
