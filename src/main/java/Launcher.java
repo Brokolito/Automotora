@@ -62,6 +62,7 @@ public class Launcher {
         System.out.println("(1) Ver autos en venta");
         System.out.println("(2) Remover un auto en venta");
         System.out.println("(3) Añadir auto a venta");
+        System.out.println("(4) Salir");
     }
 
     public static int Ingresar() {
